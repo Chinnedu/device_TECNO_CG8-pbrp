@@ -70,9 +70,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
    export OF_FIX_DECRYPTION_ON_DATA_MEDIA=1
    export OF_USE_SYSTEM_FINGERPRINT=1
    
-    # Custom Rom 
-    export OF_DEFAULT_KEYMASTER_VERSION=4.1
-   
     # ensure that /sdcard is bind-unmounted before f2fs data repair or format
     export OF_UNBIND_SDCARD_F2FS=1
     
