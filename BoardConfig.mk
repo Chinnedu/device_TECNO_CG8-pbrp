@@ -185,6 +185,4 @@ RECOVERY_SDCARD_ON_DATA := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
 TW_HAS_NO_RECOVERY_PARTITION := true
 
-# PB Torch
-PB_TORCH_PATH := "/sys/devices/virtual/torch/torch/torch_level"
-PB_TORCH_MAX_BRIGHTNESS := 1
+TW_EXTREME_SIZE_REDUCTION := true
