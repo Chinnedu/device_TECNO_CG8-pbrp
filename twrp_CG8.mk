@@ -14,14 +14,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit some common TWRP stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from TECNO-CG8 device
-$(call inherit-product, device/TECNO/CG8/device.mk)
+# Inherit from CG8 device
+$(call inherit-product, device/tecno/CG8/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CG8
-PRODUCT_NAME := omni_CG8
+PRODUCT_NAME := twrp_CG8
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := Camon 17 Pro
 PRODUCT_MANUFACTURER := TECNO
