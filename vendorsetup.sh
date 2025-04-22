@@ -34,7 +34,6 @@ fi
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
     export FOX_BUILD_TYPE=Unofficial
-    # export FOX_ENABLE_LAB=1
     
     export TARGET_DEVICE_ALT="CG8,CG8H"
 
